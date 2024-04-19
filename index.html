@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <main class="card-1 card">
+    <div class="card-1__icon-wrap">
+      <img class="card-1__icon" src="images/icon-star.svg" alt="star icon">
+    </div>
+    <h1 class="card-1__title title">How did we do?</h1>
+    <p class="card-1__descr descr">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    <ul class="card-1__rating-wrap">
+      <li><button class="btn">1</button></li>
+      <li><button class="btn">2</button></li>
+      <li><button class="btn">3</button></li>
+      <li><button class="btn">4</button></li>
+      <li><button class="btn">5</button></li>
+    </ul>
+    <button type="submit" class="submit">Submit</button>
+  </main>
+  <main class="card-2 card hidden">
+    <div class="card-2__img-wrap"><img class="card-2__img" src="images/illustration-thank-you.svg" alt="illustration"></div>
+    <button class="card-2__btn">You selected <span class="user-rate">none</span> out of 5</button>
+    <h1 class="card-2__title title">Thank you!</h1>
+    <p class="card-2__descr descr">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </main> 
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
